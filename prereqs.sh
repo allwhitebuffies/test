@@ -11,11 +11,11 @@ echo "********************************"
 echo "Installing w3m for text-based browsing..."
 sudo apt-get --assume-yes install w3m w3m-img
 echo "********************************"
-cd ~
+cd /usr/local
 echo "********************************"
 echo "Cloning Git repository..."
 sudo git clone https://github.com/annabaker/ansible-nginx.git
-cd ~/ansible-nginx
+cd ansible-nginx
 cd ansible-nginx
 echo "********************************"
 echo "Installating nginx..."
