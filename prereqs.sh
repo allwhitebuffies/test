@@ -4,7 +4,7 @@ sudo apt-get --assume-yes install software-properties-common
 sudo apt-get --assume-yes install python-software-properties
 echo "********************************"
 echo "Installing Ansible..."
-sudo add-apt-repository ppa:ansible/ansible
+sudo add-apt-repository --assume-yes ppa:ansible/ansible
 sudo apt-get update
 sudo apt-get --assume-yes install ansible
 echo "********************************"
